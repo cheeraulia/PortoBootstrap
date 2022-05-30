@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Portofolio</title>
+</head>
+
+<body>
+    <!-- Awal Navbar -->
+    <nav id="navbar-example2" class="navbar navbar-dark px-3" style="background-color:#0d6efd;">
+      <a class="navbar-brand" href="#">Name</a>
+      <ul class="nav nav-pills text-light">
+        <li class="nav-item">
+          <a class="nav-link text-light" style="background-color:#0d6efd;" href="#scrollspyHeading1">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" style="background-color:#0d6efd;" href="#scrollspyHeading2">Work Experience</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">More</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#scrollspyHeading3">Achievement</a></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading4">Tulisan</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!-- Akhir Navbar --> 
+
+    <!-- Awal Jumbotron-->
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+      <div id="scrollspyHeading1" class="jumbotron text-center">
+        <img src="/asset/person Small.jpeg" class="rounded-circle mt-4" alt="Rahmah" width="200"> <br>
+        <h1 class="display-6 mt-2 text-center"> {{Name}} </h1>
+        <p class="lead">{{Kerjaan}} </p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,245.3C384,245,480,171,576,144C672,117,768,139,864,165.3C960,192,1056,224,1152,208C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      </div>
+    <!-- Akhir Jumbotron-->
+    <!-- Awal About Me -->
+    <section id="scrollspyHeading2">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center">About Me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo blanditiis facere molestiae tenetur. Suscipit illum excepturi, sequi enim quae eaque.</p>
+          </div>
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est autem rerum enim? Perspiciatis quia quaerat nisi officiis, voluptas corporis magni consectetur nihil ducimus molestiae. Hic deleniti sed saepe perferendis optio.</p>
+          </div>
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est, ex suscipit ullam ratione ut minus corrupti magnam earum laboriosam fugiat beatae inventore repellendus optio, molestiae quasi, distinctio provident consequatur!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About Me -->
+
+      <h4 id="scrollspyHeading3">Third heading</h4>
+      <p>...</p>
+      <h4 id="scrollspyHeading4">Fourth heading</h4>
+      <p>...</p>
+      <h4 id="scrollspyHeading5">Fifth heading</h4>
+      <p>...</p>
+    </div>
+    
+
+
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
